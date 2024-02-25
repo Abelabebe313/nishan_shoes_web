@@ -12,7 +12,7 @@ import ContactUs from "./components/ContactUs";
 function App() {
   return (
     <div>
-      <div className="px-44 pt-14">
+      <div className="px-10 sm:px-20 lg:px-44 pt-14 w-full">
         <Navbar/>
         <Home/>
         <Companylogo/>

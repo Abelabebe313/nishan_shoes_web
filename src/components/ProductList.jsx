@@ -36,11 +36,16 @@ function ProductList() {
       ];
       const visibleProducts = showAllProducts ? products : products.slice(0, 8);
   return (
-    <div className='space-y-10'>
+    <div className='pt-20 px-3 py-2.5 space-y-10'>
       <div>
-        <p className='text-primary-600 font-semibold text-[20px]'>OUR PRODUCTS  ________________</p>
+        <div className='flex items-center gap-x-5'>
+            <div className='bg-primary-100'>
+                <p className='text-primary-600 font-semibold text-[16px] md:text-[20px]'>OUR PRODUCTS</p>
+            </div>
+            <hr className='bg-primary-600 h-[3px] w-44'/>
+        </div>
         <div className='flex justify-between'>
-          <h1 className='font-semibold text-[48px]'>Explore Our Products</h1>
+          <h1 className='font-semibold text-2xl md:text-[48px]'>Explore Our Products</h1>
           {!showAllProducts && (
             <button onClick={() => setShowAllProducts(true)} className="btnStyle">View More</button>
           )}
@@ -49,12 +54,12 @@ function ProductList() {
           )}
         </div>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4  w-full">
         {visibleProducts.map(product => (
-          <div key={product.id} className="bg-gray-100 p-4 rounded-lg">
-            <img src={product.image} alt={product.name} className="w-full mb-2 rounded overflow-hidden object-fill h-96" />
+          <div key={product.id} className="bg-white shadow-md p-4 rounded-lg">
+            <img src={product.image} alt={product.name} className="w-full mb-2 rounded overflow-hidden object-contain h-96" />
             <div className='space-y-2 pb-10'>
-              <p className="text-primary-600 text-2xl font-semibold">{product.name}</p>
+              <p className="text-primary-600 text-xl md:text-2xl font-semibold">{product.name}</p>
               <p className='text-text_color-700'>{product.detail}</p>
             </div>
           </div>
