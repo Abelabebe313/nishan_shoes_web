@@ -36,7 +36,7 @@ function ProductList() {
       ];
       const visibleProducts = showAllProducts ? products : products.slice(0, 8);
   return (
-    <div className='pt-20 px-3 py-2.5 space-y-10'>
+    <div className='pt-20 px-3 py-2.5 space-y-10' id='products'>
       <div>
         <div className='flex items-center gap-x-5'>
             <div className='bg-primary-100'>

@@ -3,7 +3,7 @@ import experienceImage from '../assets/Leather_poster.jpg'
 
 function ExperienceSection() {
   return (
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-x-6 md:gap-x-16 py-24 items-center'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-x-6 md:gap-x-16 py-24 items-center' id='experience'>
             <div className='space-y-10 text-center md:text-left'>
                 <div className='space-y-6'>
                     <div className='flex items-center gap-x-5'>

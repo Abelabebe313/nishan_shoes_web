@@ -2,7 +2,7 @@ import React from 'react'
 
 function Testimonial() {
   return (
-    <div className='space-y-20 py-28'>
+    <div className='space-y-20 py-28' id='testimonial'>
         <div className='space-y-4'>
           <div className='flex items-center gap-x-5'>
               <div className='bg-primary-100'>

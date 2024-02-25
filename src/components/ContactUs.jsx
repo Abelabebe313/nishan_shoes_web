@@ -4,7 +4,7 @@ import small from '../assets/Screenshot from 2024-02-21 20-43-06.png'
 
 function ContactUs() {
   return (
-    <div className='flex md:h-[600px]  py-8 space-y-6 bg-primary-600  p-8 shadow-lg rounded-tl-3xl rounded-br-3xl w-3/3'>
+    <div className='flex md:h-[600px]  py-8 space-y-6 bg-primary-600  p-8 shadow-lg rounded-tl-3xl rounded-br-3xl w-3/3' id='contact'>
             <div className=' md:p-16 space-y-2 md:w-[50%]'>
                 <p className='text-primary-300 font-semibold text-[20px]'>CONTACT US</p>
                 <h1 className='text-white font-semibold text-3xl md:text-[48px]'>You Deserve the best!</h1>
@@ -31,6 +31,19 @@ function ContactUs() {
                     <div>
                         <p className='text-primary-900 font-bold text-lg'>Phone Us</p>
                         <p className='text-white font-semibold md:text-2xl'>0912932797  -  0903632274</p>
+                    </div>
+
+                </div>
+                <div className='flex gap-x-6'>
+                    <div class='bg-primary-700 w-14 h-14 rounded-lg flex justify-center items-center'>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <p className='text-primary-900 font-bold text-lg'>Our address </p>
+                        <p className='text-white font-semibold md:text-2xl'>Ethiopia, Lemikura,Hayat,</p>
                     </div>
                 </div>
                 <p className='text-text_color-100 text-[20px]'>Want to contact our team and book a call? <span className='text-primary-400'>Try it now</span> </p>

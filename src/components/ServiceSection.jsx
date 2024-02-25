@@ -3,7 +3,7 @@ import serviceImage from '../assets/service.png'
 
 function ServiceSection() {
   return (
-    <div className='grid grid-col-1 md:grid-cols-2 gap-x-6 md:gap-x-16 py-24 items-center md:items-start'>
+    <div className='grid grid-col-1 md:grid-cols-2 gap-x-6 md:gap-x-16 py-24 items-center md:items-start' id='service'>
         <div className='hidden md:block'>
             <img src={serviceImage} alt="ImageError"  className=''/>
         </div>

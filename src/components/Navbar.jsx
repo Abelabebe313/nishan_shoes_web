@@ -6,12 +6,12 @@ const Navbar = () => {
     <div className= 'flex items-center justify-between text-white'>
         <h1 className='text-[#252B42] font-semibold text-3xl'>Nishan</h1>
         <div className="hidden lg:flex flex-grow justify-center md:justify-end mt-4 md:mt-0">
-            <a href="#" className="text-[#252B42] hover:text-primary-600 mx-4">Home</a>
-            <a href="#" className="text-[#252B42] hover:text-primary-600 mx-4">Expertise</a>
-            <a href="#" className="text-[#252B42] hover:text-primary-600 mx-4">Service</a>
-            <a href="#" className="text-[#252B42] hover:text-primary-600 mx-4">Products</a>
-            <a href="#" className="text-[#252B42] hover:text-primary-600 mx-4">Testimonials</a>
-            <a href="#" className="text-[#252B42] hover:text-primary-600 mx-4">Contact Us</a>
+            <a href="#home" className="text-[#252B42] hover:text-primary-600 mx-4">Home</a>
+            <a href="#experience" className="text-[#252B42] hover:text-primary-600 mx-4">Expertise</a>
+            <a href="#service" className="text-[#252B42] hover:text-primary-600 mx-4">Service</a>
+            <a href="#products" className="text-[#252B42] hover:text-primary-600 mx-4">Products</a>
+            <a href="#testimonial" className="text-[#252B42] hover:text-primary-600 mx-4">Testimonials</a>
+            <a href="#contact" className="text-[#252B42] hover:text-primary-600 mx-4">Contact Us</a>
        </div>
        <button className='btnStyle flex justify-center gap-x-5'>
           <p className='md:text-xl '> Call Us </p>

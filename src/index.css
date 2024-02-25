@@ -9,6 +9,9 @@ body {
   background-color: #FFFBEB;
   font-family: 'Poppins';
 }
+html {
+  scroll-behavior: smooth;
+}
 
 @layer components {
   
